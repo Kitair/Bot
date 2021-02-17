@@ -44,7 +44,7 @@ def get_message():
 @app.route('/')
 def main():
     bot.remove_webhook()
-    bot.set_webhook(url='https://bot-prog-kyiv-ua.herokuapp.com/' + TOKEN)
+    bot.set_webhook(url='https://kitairbot.herokuapp.com/' + TOKEN)
     return "Python Telegram Bot", 200
 
 
